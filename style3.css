@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+.MyCh {
+    background-color: lawngreen;
+    border-radius: 15px;
+    border-style: dotted;
+    border-color: green;
+    transition: 0.5s;
+    text-decoration: none;
+    
+}
+h2 {
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1200;
+  font-style: normal;
+}
+#youtube {
+    border-style: dotted;
+    border-radius: 13px;
+    background-color: #93e2b1;
+    margin: 10px;
+}
+.MyCh:hover {
+    background-color: greenyellow;
+    border-radius: 15px;
+    border-style: dotted;
+    border-color: lawngreen;
+    transition: 0.5s;
+    text-decoration: none;
+}
+p  {
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 300px;
+}
+h4 {
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.comment {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: 3s;
+}
+.comment:hover {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    transform: rotate(3deg);
+}
+.autor {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.date {
+    color: silver;
+    margin-top: 0px;
+    margin-bottom: 10px;  
+}
+#sub_com {
+    margin-left: 40px;
+}
+body {
+    background-image: linear-gradient(rgb(163, 163, 163),rgb(80, 80, 80));
+}
+#menu1{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+    font-size: 15px;
+    
+    padding: 10px;
+    
+}
+#menu1 ul{
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    font-size: 15px;
+    
+}
+#menu1 ul::after{
+    display: block;
+    width: 100%;
+    height: 0px;
+    clear: both;
+    content: " ";
+    font-size: 15px;
+}
+#menu1 ul li{
+    position: relative;
+    display: block;
+     float: left;
+    width: auto;
+    height: auto;
+
+    padding: 10px;
+    margin: 10px;
+    
+}
+#menu1 ul li a{
+    display: block;
+    padding: 11px 30px 5px 30px;
+    font-size: 14px;
+    line-height: 1.3em;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 36px;
+    box-sizing: border-box;
+    color: rgb(0, 255, 0);
+    font-size: 25px;
+    
+    
+}
+#menu1 ul li ul{
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    display: none;
+    width: 200px;
+    /* background: #087a34; */
+    font-size: 25px;
+    
+}
+#menu1 ul li:hover ul{
+    display: block;
+    font-size: 25px;
+}
+#menu1 ul li ul li{
+    float: none;
+    width: 100%;
+    font-size: 25px;
+    border: outset;
+    border-radius: 7px;
+    background-color: rgb(96, 219, 91);
+    padding: 0px 0px 40px 0px;
+}
+    
+/* #menu1 ul li ul li a{
+display: block;
+text-transform: none;
+height: auto;
+padding: 7px 25px;
+width: 100%;
+box-sizing: border-box;
+border-top: 1px solid #8a8a8a;
+color: rgb(149, 209, 176);
+font-size: 35px;
+} */
+    
+#menu1 ul li ul li:first-child a{
+border-top: 0px;
+font-size: 25px;
+}
+nav {
+    font-size: 25px;
+}
+li {
+    font-size: 25px;
+}
+#nado {
+    background-color: #5eb981;
+    padding: 0px;
+    border-radius: 7px;
+    border-style: inset;
+    border-width: 5px;
+    padding: 100px;
+    margin: 100px;
+}
+header {
+    background-image: linear-gradient(#93e2b1,#6ba882);
+    padding: 20px;
+    border-radius: 11px;
+    border-style: inset;
+    border-width: 10px;
+}
+a {
+    text-decoration: none;
+    color: rgb(30, 145, 145);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.5px;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+#p1 {
+    text-decoration: none;
+    color: rgb(34, 211, 93);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    align-self: center;
+    max-width: 100%; height: 100px;
+}
+footer {
+    background-color: rgb(196, 196, 196);
+    padding: 20px;
+    border-radius: 11px;
+    border-style: inset;
+    border-width: 10px;
+    align-self: center;
+}
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700");
+.hero {
+  background-color: #000000;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero__title {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  z-index: 1;
+}
+
+.cube {
+  position: absolute;
+  top: 80vh;
+  left: 45vw;
+  width: 10px;
+  height: 10px;
+  border: solid 1px #009819;
+  transform-origin: top left;
+  transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  -webkit-animation: cube 12s ease-in forwards infinite;
+          animation: cube 12s ease-in forwards infinite;
+}
+.cube:nth-child(2n) {
+  border-color: #00f414;
+}
+.cube:nth-child(2) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  left: 25vw;
+  top: 40vh;
+}
+.cube:nth-child(3) {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  left: 75vw;
+  top: 50vh;
+}
+.cube:nth-child(4) {
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+  left: 90vw;
+  top: 10vh;
+}
+.cube:nth-child(5) {
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+  left: 10vw;
+  top: 85vh;
+}
+.cube:nth-child(6) {
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+  left: 50vw;
+  top: 10vh;
+}
+
+@-webkit-keyframes cube {
+  from {
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    transform: scale(20) rotate(960deg) translate(-50%, -50%);
+    opacity: 0;
+  }
+}
+
+@keyframes cube {
+  from {
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    transform: scale(20) rotate(960deg) translate(-50%, -50%);
+    opacity: 0;
+  }
+}
